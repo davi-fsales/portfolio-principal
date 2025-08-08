@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pro</title>
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <main class="menu">
+            <div class="principal">
+                <img src="src/assets/images/profile.png" alt="foto de perfil de Davi Farias Sales">
+                <h1>Davi Farias Sales</h1>
+                <h2>Desenvolvedor Web Front End</h2>
+                <p>"Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema"</p>
+            </div>
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="#sobre">Sobre
+                            <span class="underline"></span>
+                        </a>
+                    </li>
+                    <li><a href="#skills">Skills
+                            <span class="underline"></span>
+                        </a>
+                    </li>
+                    <li><a href="#projetos">Projetos
+                            <span class="underline"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="contato">
+                <a href="https://www.instagram.com/davifsales/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/davifsales/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/davi-fsales" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=davifsales2@gmail.com" target="_blank"><i
+                        class="fa-solid fa-envelope"></i></a>
+            </div>
+        </main>
+    </div>
+    <div class="conteudo">
+        <section class="sobre" id="sobre">
+            <p class="sobre" id="sobre"><strong>Olá, me chamo Davi!</strong> Sou de Arcoverde-PE e sou apaixonado por
+                programação! Gosto de games desde cedo e isso me levou a querer cada vez mais aprender sobre tecnologia.
+                Fiz 6 períodos de <strong>Engenharia da Computação</strong> na UFRPE, mas acabei não tendo a experiência
+                que achei que teria. Então decidi estudar programação com cursos independentes, e desde então tenho
+                aprimorado <strong>minhas habilidades</strong> na área. Estou em busca da minha primeira vaga como dev e
+                aberto a projetos freelancers. <strong>Gosto muito de aprender</strong>, descobrir coisas novas e
+                melhorar como programador. Espero que você curta meu portfólio :D</p>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skill" data-skill="HTML">
+                <h2>HTML</h2>
+                <p>Tenho domínio na estruturação semântica de páginas web, garantindo acessibilidade e organização do
+                    conteúdo. Utilizo boas práticas para criar layouts limpos e compatíveis com diferentes navegadores.
+                </p>
+            </div>
+
+            <div class="skill" data-skill="CSS">
+                <h2>CSS</h2>
+                <p>Crio estilos modernos e responsivos com CSS, usando técnicas como Flexbox, Grid e media queries.
+                    Tenho cuidado com design visual, usabilidade e adaptação a diferentes tamanhos de tela para
+                    responsividade.</p>
+            </div>
+
+            <div class="skill" data-skill="JavaScript">
+                <h2>JavaScript</h2>
+                <p>Utilizo JavaScript para adicionar interatividade e lógica a páginas web. Trabalho com manipulação de
+                    DOM, eventos, consumo de APIs e estruturação de código limpo e reutilizável.</p>
+            </div>
+
+            <div class="skill" data-skill="GitHub">
+                <h2>Git & GitHub</h2>
+                <p>Versiono projetos com Git de forma organizada, utilizando ramificações, commits claros e merges
+                    controlados. No GitHub, gerencio repositórios, colaborações e acompanho o progresso dos meus
+                    projetos.</p>
+            </div>
+        </section>
+        <div class="cartao-skills" id="cartaoSkills">
+            <div class="cartao">
+                <button class="btn-fechar" id="btnFechar"><i class="fa-solid fa-xmark"></i></button>
+                <h2 id="cartaoTitulo"></h2>
+                <ul id="cartaoLista">
+                </ul>
+            </div>
+        </div>
+        </section>
+        <section class="projetos" id="projetos">
+            <div class="landing-page">
+                <a href="https://warm-tiramisu-60ad7f.netlify.app/" target="_blank"><img src="src/assets/images/landing-page.png"
+                        alt="imagem da landing page"></a>
+                <div class="informacoes">
+                    <p><strong>Landing page</strong> completa com menu de navegação, design moderno, animações
+                        interativas e responsividade.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <a href="https://github.com/davi-fsales/pagina-de-agencia" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="cartao-de-avaliacao">
+                <a href="https://cartao-de-avaliacao.netlify.app/" target="_blank"><img src="src/assets/images/cartao-de-avaliacao.png"
+                        alt="imagem do cartão de avaliação"></a>
+                <div class="informacoes">
+                    <p><strong>Cartão de avaliação</strong> funcional, onde usuário dá a nota e depois consegue
+                        visualizar outro cartão com a nota dada. Design moderno, animações interativas e responsividade.
+                    </p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="https://github.com/davi-fsales/interactive-rating-component" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="formulario">
+                <a href="formulario-dfs.netlify.app" target="_blank"><img src="src/assets/images/formulario.png" alt="imagem do formulário"></a>
+                <div class="informacoes">
+                    <p><strong>Formulário </strong>funcional, com efeitos visuais indicando o preenchimento correto ou
+                        incorreto das informações. Design bonito e interativo.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="https://github.com/davi-fsales/formulario" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>© 2025 Davi Farias Sales. Desenvolvido com carinho :v
+        </footer>
+    </div>
+
+
+    <div id="luz-do-mouse"></div>
+
+    <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+
+</html>
